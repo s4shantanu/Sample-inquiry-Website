@@ -1,0 +1,29 @@
+@font-face {
+    font-family: avn;
+    src: url("../fonts/aveniernext/AvenirNextLTPro-Regular.otf");
+}
+
+@font-face {
+    font-family: has;
+    src: url("../fonts/roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: pb;
+    src: url("../fonts/poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: p;
+    src: url("../fonts/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: nb;
+    src: url('../fonts/nuninto/Nunito-Bold.ttf');
+}
+
+@font-face {
+    font-family: ico;
+    src: url('../fonts/glyphicons/flat-ui-pro-icons-regular.ttf');
+}
