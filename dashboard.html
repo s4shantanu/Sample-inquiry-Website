@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<html lang="en">
+</head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Sidebar Dashboard Template</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+
+
+  <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
+  <link rel="stylesheet" href="../assets/css/Footer-Dark.css">
+  <link rel="stylesheet" href="../assets/css/Navigation-Clean.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+
+  <title>Aid | your healthcare </title>
+
+  <style>
+    .tab div {
+      display: none;
+    }
+
+    .tab div:target {
+      display: block;
+    }
+  </style>
+
+
+
+</head>
+
+<body style="background-color: white;">
+
+  <input type="checkbox" id="check">
+  <!--header area start-->
+  <header style="background-color: black">
+    <label for="check">
+      <i class="fas fa-bars" id="sidebar_btn"></i>
+    </label>
+    <div class="left_area">
+      <h3>AID <span>Master</span></h3>
+    </div>
+    <div class="right_area">
+      <a href="#" class="logout_btn">Logout</a>
+    </div>
+  </header>
+  <!--header area end-->
+  <!--mobile navigation bar start-->
+  <div class="mobile_nav">
+    <div class="nav_bar">
+      <img src="1.png" class="mobile_profile_image" alt="">
+      <i class="fa fa-bars nav_btn"></i>
+    </div>
+    <div class="mobile_nav_items">
+      <a href="#"><i class="fas fa-home"></i><span>Dashboard</span></a>
+      <a href="#"><i class="fas fa-stethoscope"></i><span>Components</span></a>
+      <a href="#"><i class="fas fa-first-aid"></i><span>Tables</span></a>
+      <a href="#"><i class="far fa-comment-alt"></i><span>Forms</span></a>
+      <a href="#"><i class="fas fa-shopping-cart"></i><span>About</span></a>
+
+    </div>
+  </div>
+  <!--mobile navigation bar end-->
+  <!--sidebar start-->
+  <div class="sidebar">
+    <div class="profile_info">
+      <img src="1.png" class="profile_image" alt="">
+      <h4>Jessica</h4>
+    </div>
+    <a href="#"><i class="fas fa-home"></i><span>Dashboard</span></a>
+    <a href="#"><i class="fas fa-stethoscope"></i><span>Components</span></a>
+    <a href="#"><i class="fas fa-first-aid"></i><span>Tables</span></a>
+    <a href="#"><i class="far fa-comment-alt"></i><span>Forms</span></a>
+    <a href="#"><i class="fas fa-shopping-cart"></i><span>About</span></a>
+
+  </div>
+  <!--sidebar end-->
+
+  <div class="content">
+    <div class="container" style="height: 30%;">
+      <div class="row">
+        <div class="col-sm" style="padding: 25px;">
+          <img src="../assets/img/top_products/dettol.png" alt="" style="border-radius: 50%; height: 40%; float: left;">
+          <div>
+            <h4> User Name</h4>
+            <p> style = <br>Gender<br>DOB</p>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+
+      <div class="bl bls" style=" height:100vh; float: left;">
+        <div class="body tab">
+
+          <h2 style="font-family: 'avn'; color: black">
+            <a href="#one" style="float: left;">
+              Your Orders </a>
+          </h2>
+
+
+          <h2 style="font-family: 'avn'; color: black">
+
+            <a href="#two" style="position: relative; top: 20px; left: 20px;">
+              Profile
+            </a>
+          </h2>
+
+
+
+
+          <br>
+          <br>
+          <div id="two">
+
+            <input type="text" placeholder="First name"
+              style="width: 40%; padding: 10px;  color: #fff; outline: none; font-family: 'p'; border: none; border-radius: 5px; border:1px solid black;">
+            <input type="text" placeholder="Last name"
+              style="width: 40%; padding: 10px;  color: #fff; outline: none; font-family: 'p'; border: none; border-radius: 5px; border:1px solid black;">
+            <br> <br> <br>
+            <input type="email" placeholder="Email"
+              style="width: 100%; padding: 10px;  color: #fff; outline: none; font-family: 'p'; border: none; border-radius: 5px; border:1px solid black;">
+            <br> <br> <br>
+            <input type="text" placeholder="Address"
+              style="width: 100%; padding: 10px;  color: #fff; outline: none; font-family: 'p'; border: none; border-radius: 5px; border:1px solid black;">
+            <br> <br> <br>
+            <input type="text" placeholder="Phone number"
+              style="width: 100%; padding: 10px;  color: #fff; outline: none; font-family: 'p'; border: none; border-radius: 5px; border:1px solid black;">
+            <br> <br> <br>
+            <input type="date" placeholder="DOB"
+              style="width: 100%; padding: 10px;  color: #fff; outline: none; font-family: 'p'; border: none; border-radius: 5px; border:1px solid black; ">
+            <br><br>
+            <b style="color: black;">Male</b> <input type="radio" name="r"
+              style="width: 15%; padding: 10px;  color: #fff; outline: none; font-family: 'p'; border: none; border-radius: 5px; border:1px solid black;">
+            <b style="color: black;">Female</b> <input type="radio" name="r"
+              style="width: 15%; padding: 10px;  color: #fff; outline: none; font-family: 'p'; border: none; border-radius: 5px; border:1px solid black;">
+
+            <b style="color: black">Custom</b> <input type="radio" name="r"
+              style="width: 15%; padding: 10px;  color: #fff; outline: none; font-family: 'p'; border: none; border-radius: 5px; border:1px solid black;">
+
+            <br>
+
+            <button style="margin: 10px; width:100px; padding: 10px; background-color:blue;" class="btn">Apply</button>
+            <center>
+          </div>
+        </div>
+        <div id="one">
+
+
+
+          <div class="container-fluid" style="height: 30%;">
+            <div class="row">
+              <div class="col-sm-8" style="padding: 25px;">
+                <img src="assets/img/top_products/dettol.png" alt=""
+                  style="border-radius: 50%; height: 40%; float: left;">
+
+
+
+              </div>
+              <div class="col-sm-4" style="padding: 25px; float: right;">
+                <p style="color: red"><a href=" ">Arrive Details</a> <a href="" class="btn btn-primary">Cancle</a></p>
+              </div>
+
+            </div>
+
+
+            <br>
+
+            <br>
+            <div class="row">
+              <div class="col-sm-8" style="padding: 25px;">
+                <img src="assets/img/top_products/dettol.png" alt=""
+                  style="border-radius: 50%; height: 40%; float: left;">
+
+
+
+              </div>
+              <div class="col-sm-4" style="padding: 25px; float: right;">
+                <p style="color: red"><a href=" ">Arrive Details</a> <a href="" class="btn btn-primary">Cancle</a></p>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.nav_btn').click(function () {
+          $('.mobile_nav_items').toggleClass('active');
+        });
+      });
+    </script>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+
+</body>
+
+</html>
